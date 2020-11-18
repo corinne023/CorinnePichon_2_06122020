@@ -11,7 +11,7 @@ header {
     max-width: 1440px;
     margin: auto;
   }
-Img {
+img {
     grid-area: logo;
     padding: 0 2rem;
     height: 2.813rem;
