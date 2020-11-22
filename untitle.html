@@ -14,9 +14,9 @@
    <header>
      <img src="./img/reservia_logo.svg.svg" alt="Reservia">
      <nav>
-       <a href="#hosting" data-active="true">Hébergement</a>
-       <a href="#activity" data-active="false" >Activités</a>
-       <a href="#">S'inscrire</a>
+       <a class="navlink" data-active="true">Hébergements</a>
+       <a class="navlink" data-active="false" >Activités</a>
+       <a class="navlink" data-active="true">S'inscrire</a>
      </nav>
     </header>
  <!-- HEADER -->
@@ -32,33 +32,43 @@
         <p>En plein centre de ville ou en pleine nature</p>
      </header>
        <form action="proceedFrom.html" method="GET">
-       <i class="fas fa-map-marker-alt searchicon"></i>
+       <i class="searchformsearchicon fas fa-map-marker-alt "></i>
        <input id="input"type="search" placeholder="Marseille, France">
-       <button class="searchFormSubmitinput">
+       <button class="searchformsubmitinput">
         <span>Rechercher</span>
         <i class="searchFormSubmitinputIcon fas fa-search"></i>
         </button>
       </form>
       <article class="searchFilters">
        <h2 >Filtres</h2>
-       <div class="searchFiltersfilter"></div>
+       <div class="searchFiltersfilter">
+         <div class="searchfilterwrapicon">
          <i class="fas fa-money-bill-wave searchwrapicon"></i>
+         </div>
          <p>Économique</p>
        </div>
         <div class="searchFiltersfilter">
+          <div class="searchfilterwrapicon">
          <i class="fas fa-child searchwrapicon"></i>
-         <span>Familial</span>
+         </div>
+         <p>Familial</p>
         </div>
        <div class="searchFiltersfilter">
+        <div class="searchfilterwrapicon">
           <i class="fas fa-heart searchwrapicon"></i>
-          <span>Romantique</span>
+         </div> 
+         <p>Romantique<p>
          </div>
         <div class="searchFiltersfilter">
+          <div class="searchfilterwrapicon">
          <i class="fas fa-dog searchwrapicon"></i>
-         <span>Animaux autorisés</span>
+          </div>
+         <p>Animaux autorisés<p>
         </div>
         <div class="result">
+          <div class="searchfilterwrapicon">
         <i class="fas fa-info searchwrapicon"></i>
+         </div>
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
        </div>
   </section>
@@ -90,7 +100,7 @@
        <h3>Hôtel du port</h3>
        <p>Nuit à partir de <strong>52€</strong></p>
         <div class="etoile">
-         <i class="fas fa-sta fasiconr" data-active="true"></i>
+         <i class="fas fa-star fasicon" data-active="true"></i>
          <i class="fas fa-star fasicon" data-active="true"></i>
          <i class="fas fa-star fasicon" data-active="true"></i>
          <i class="fas fa-star fasicon" data-active="true"></i>
@@ -158,10 +168,12 @@
        </div>
       </figcaption>
      </figure>
+     <p>Afficher plus</p>
     </article>
-    <p>Afficher plus</p>
+  
+    
 
-   <aside>
+   <aside class=populaire>
      <h2>Les plus populaire<i class="fas fa-chart-line"></i> </h2>
      <article class="hebergementpopulaire">
       <figure>
