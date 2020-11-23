@@ -140,45 +140,47 @@ article h2 {
     margin: 1rem 0 2rem 0;
   }
 
-.hebergement {
-    display: flex;
-    
-  }
+.hebergement { 
+   padding: 0.375;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  display: flex;
+    align-content: space-between;
+}
+.hebergement h2{
+ margin: 0;  
+}
 .hebergement1{
   background-color: #F2F2F2;
   border-radius: 1.5rem;
-  padding: 2rem;
-    display: flex;
-    align-content: flex-start;
-    
-    column-gap: 2rem;
-    row-gap: 2rem;
+  padding: 4rem;
+
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;   
   }
-article h2{
-  margin: 0;
-}
-figure {
+
+.hebergement1 figure {
     background-color: white;
     padding: 0.375rem;
   border-radius: 1.25rem;
-  box-shadow: 0 0 16px #0000002e;
-  transition-duration: 0.1s;
-  cursor: pointer;
+  
   box-sizing: border-box;
-  height: 100%;
   }
-.image1 {
-    height: 7rem;
-    object-fit: cover;
-    max-width: 50%;
-    width: 50%;
-    max-height: 50%;
-    border-radius: 1rem 1rem 0 0;
-  }
-figcaption h3 {
+.image1{
+  height: 7rem;
+  object-fit: cover;
+  max-width: 50%;
+  width: 50%;
+  max-height: 50%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+
+.hebergement1 figcaption h3 {
     margin: 0.25rem 0.75rem 0 0.75rem;
   }
-  figcaption p{
+.hebergement1 figcaption p{
     margin: 0.25rem 0.75rem 0.25rem 0.75rem;
   }
 .etoile{
@@ -192,9 +194,52 @@ figcaption h3 {
   }
 
   /*hebergement populaire*/
+.populaire{
+  background-color: #F2F2F2;
+  border-radius: 1.5rem;
+  padding: 4rem;
+  width: 30%;
+}
+.populaire h2{
+  margin: 0;
+}
 .hebergementpopulaire{
   background-color: #F2F2F2;
   border-radius: 1.5rem;
-  padding: 2rem;
-    display: flex;
-} 
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.hebergementpopulaire figure{
+   background-color: white;
+   border-radius: 1.25rem;
+   width: 50%;
+   height: 20%;
+   padding: 1rem;
+   margin: 0.25rem 
+}
+ 
+  .image2{
+   
+    border-radius: 1rem 0 0 1rem;
+  position:left;
+  width: 33%;
+  height: 33%;
+  
+  }
+  .hebergementpopulaire figcaption h3 {
+   
+  }
+.hebergementpopulaire figcaption p{
+}
+.activite{
+display: flex;
+  column-gap: 2rem;
+  margin: 4rem 0;
+}
+
+    
+
+
+
+
