@@ -142,8 +142,9 @@ article h2 {
 
 .hebergement { 
    padding: 0.375;
-  row-gap: 2rem;
-  column-gap: 2rem;
+   
+ 
+  
   display: flex;
     align-content: space-between;
     
@@ -155,25 +156,29 @@ article h2 {
   background-color: #F2F2F2;
   border-radius: 1.5rem;
   padding: 4rem;
-
-  display: flex;
-  flex-wrap: wrap;
- height: 50%;
+display: flex;
+flex-direction: row;
+align-content: space-between;
+  
+ margin-right: 20px;
   }
-
+.element2{
+  align-self: flex-end;
+}
 .hebergement1 figure {
     background-color: white;
-    padding: 0.375rem;
-  border-radius: 1.25rem;
-  
+    padding: 6px 6px 6px 6px;
+    margin: 0;
+    margin-bottom: 40px;
+  border-radius: 1.25rem; 
   box-sizing: border-box;
   }
 .image1{
   height: 7rem;
   object-fit: cover;
-  max-width: 50%;
-  width: 50%;
-  max-height: 50%;
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
   border-radius: 1rem 1rem 0 0;
 }
 
@@ -235,7 +240,8 @@ article h2 {
 }
 .activite{
   background-color: red;
-
+ display: flex;
+width: 1024px;
 
 margin: auto;
 box-sizing: border-box;
@@ -244,25 +250,87 @@ box-sizing: border-box;
 }
 .activite1{
   background-color: white;
-  padding: 0.375r;
-  border-radius: 1.25rem;
+  padding: 0.375rem;
+  border-radius: 12px;
   box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  
- 
- 
-  
+  width: 236px;
+  height: 485px;  
 }
-
-
-
-.imageactivite {
+.imageact1 {
   position: absolute;
-  border-radius: 1rem;
-  height: 20%;
-  width: 20%;
-  
+  border-radius: 10px;
+  height: 485px;
+  width: 236px;  
+}
+.activite2{
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 236px;
+  height: 288px;
+}
+.imageact2{
+  position: absolute;
+  border-radius: 10px;
+  height: 288px;
+  width: 236px;
+}
+.activite3{
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 236px;
+  height: 544px;
+}
+.image3{
+  position: absolute;
+  border-radius: 10px;
+  height: 544px;
+  width: 236px;
+}
+.activite4{
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 236px;
+  height: 224px;
+}
+.image4{
+  position: absolute;
+  border-radius: 12px;
+  width: 236px;
+  height: 224px;
+}
+.activite5{
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 236px;
+  height: 224px;
+}
+.image5{
+  position: absolute;
+  border-radius: 12px;
+  width: 236px;
+  height: 224px;
+}
+.activite6{
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 236px;
+  height: 288px;
+}
+.image6{
+  position: absolute;
+  border-radius: 12px;
+  width: 236px;
+  height: 288px;
 }
 
 footer{
