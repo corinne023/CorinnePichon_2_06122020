@@ -9,7 +9,7 @@ header {
     display: grid;
     align-items: center;
     max-width: 1040px;
-    max-height: 1884px
+   
     margin: auto;
   }
 header img {
@@ -180,7 +180,7 @@ article h2 {
 .hebergement1 h2{
   margin-bottom: 10px;
   position: absolute;
-  vertical-align: top; 
+  vertical-align: left; 
 }
 .hbergement1 p{
   vertical-align: bottom;
@@ -270,67 +270,81 @@ article h2 {
   margin: 0.25rem 0.75rem 0 0.75rem;
 }
 .activite{
-  background-color: red;
+  
  display: flex;
  flex-direction: row;
-justify-content: flex-start;
+flex-wrap: wrap;
+justify-content: start;
 width: 1440px;
+height: 600px;
 margin: auto;
 box-sizing: border-box;  
 }
 .activite h2{
-  vertical-align: top;
+  vertical-align: left;
+  
   position: absolute;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 .activite1{
   background-color: white;
+  
   padding: 0.375rem;
-  border-radius: 12px;
+  border-radius: 10px;
   box-sizing: border-box;
-  margin: 1px;
+  margin-top: 60px;
   width: 236px;
   height: 485px;  
 }
 .imageact1 { 
   object-fit: cover;
   border-radius: 10px;
-  height: 400px;
-  width: 230px;  
+  height: 90%;
+  width: 100%;  
 }
 .activite2{
   background-color: white;
+  margin-top: 50px;
+  
   padding: 0.375rem;
-  border-radius: 12px;
+  border-radius: 10px;
   box-sizing: border-box;
   width: 236px;
-  height: 150px;
+  height: 200px;
 }
 .imageact2{
   object-fit: cover;
+  
   border-radius: 10px;
-  height: 90px;
-  width: 236px;
+  height: 70%;
+  width: 100%;
 }
 .activite3{
   background-color: white;
- align-self: flex-end;
-  bottom: 0;
+  align-self: flex-end;
+  position: absolute;
+  left: 350px;
+  
   padding: 0.375rem;
   border-radius: 12px;
   box-sizing: border-box;
   width: 236px;
-  height: 150px;
+  height: 100px;
 }
 .image3{
   object-fit: cover;
-  position: relative;
+  
   border-radius: 12px;
-  height: 120px;
-  width: 236px;
+  height: 50%;
+  width: 100%;
 }
 .activite4{
   background-color: white;
+align-self: flex-start;
+position: absolute;
+left: 250px;
+bottom: -2px;
+ 
   padding: 0.375rem;
   border-radius: 12px;
   box-sizing: border-box;
@@ -340,25 +354,32 @@ box-sizing: border-box;
 .image4{
  object-fit: cover;
   border-radius: 12px;
-  width: 236px;
-  height: 420px;
+  width: 100%;
+  height: 90%;
 }
 .activite5{
   background-color: white;
+  align-self: flex-start;
+  position: absolute;
+  left: 500px;
+  bottom: 290px;
+  
   padding: 0.375rem;
   border-radius: 12px;
   box-sizing: border-box;
   width: 236px;
-  height: 200px;
+  height: 150px;
 }
 .image5{
   object-fit: cover;
   border-radius: 12px;
-  width: 236px;
-  height: 140px;
+  width: 100%;
+  height: 50%;
 }
 .activite6{
   background-color: white;
+  position: absolute;
+  right: 0px;
   padding: 0.375rem;
   border-radius: 12px;
   box-sizing: border-box;
@@ -368,8 +389,8 @@ box-sizing: border-box;
 .image6{
  object-fit: cover;
   border-radius: 12px;
-  width: 236px;
-  height: 140px;
+  width: 100%;
+  height: 70%;
 }
 
 footer{
@@ -377,6 +398,7 @@ footer{
   display: flex;
   max-width: 100%;
   width: 1440px;
+  height: 190px;
   margin: auto;
   padding: 0 2rem;
   box-sizing: border-box;
