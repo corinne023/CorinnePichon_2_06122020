@@ -144,45 +144,47 @@ article h2 {
     margin: 1rem 0 2rem 0;
   }
 
-.hebergement { 
-  width: 1440px;
+.contenairhebergement { 
+  width: 100%;
   border-radius: 1.25rem;
-   padding: 0.375; 
-  display: flex;
+   padding: 0.375rem; 
   column-gap: 5px;
 }
-  
+.hebergementetpopulaire{
+  display: flex;  
+}
 
-.hebergement1{
+.hebergements{
   background-color: #F2F2F2;
   border-radius: 1.5rem;
   padding: 4rem;
-  width: 900px;
+  width: 65%;
   height: 600px; 
-  display: flex; 
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
 }
-.element1{
+.hebergement1{
   width: 250px;
   height: 104px;
-  align-items: center; 
-  margin: 10px;
+  display: flex;
+  flex-wrap: ;
+  flex-direction:;
+   margin: 10px;
 }
-.element2{
-  width: 250px;
-  height: 104px;
-  align-items: center;
-  margin: 10px;
+.hebergmentpartie1{
+  display: flex;
 }
+.hebergementpartie2{
+  display: flex;
+}
+
 .hebergement1 h2{
   margin-bottom: 10px;
   position: absolute;
   vertical-align: left; 
 }
-.hbergement1 p{
+.hebergement1 p{
   vertical-align: bottom;
 }
 .hebergement1 figure {
@@ -193,7 +195,7 @@ article h2 {
   border-radius: 1.25rem; 
   box-sizing: border-box;
   }
-.image1{
+.imagehebergement{
   height: 7rem;
   object-fit: cover;
   max-width: 100%;
@@ -222,7 +224,7 @@ article h2 {
   background-color: #F2F2F2;
   border-radius: 1.5rem;
   padding: 4rem;
-  width: 200px;
+  width: 35%;
   height: 600px;
 }
 .populaire h2{
@@ -250,7 +252,7 @@ article h2 {
    padding: 10px;
    margin: 15px; 
 }
- .image2{
+ .imagepopulaire{
    
     border-radius: 1rem 0 0 1rem;
     object-fit: cover;
@@ -270,18 +272,23 @@ article h2 {
   margin: 0.25rem 0.75rem 0 0.75rem;
 }
 .activite{
+  width: 100%;
+  border-radius: 1.25rem;
+  padding: 0.375rem;
+}
+.activites{
   
  display: flex;
  flex-direction: row;
 flex-wrap: wrap;
 justify-content: start;
-width: 1440px;
+width: 100%;
 height: 600px;
 margin: auto;
 box-sizing: border-box;  
 }
 .activite h2{
-  vertical-align: left;
+  
   
   position: absolute;
   margin: 20px;
@@ -321,9 +328,6 @@ box-sizing: border-box;
 }
 .activite3{
   background-color: white;
-  align-self: flex-end;
-  position: absolute;
-  left: 350px;
   
   padding: 0.375rem;
   border-radius: 12px;
@@ -340,11 +344,7 @@ box-sizing: border-box;
 }
 .activite4{
   background-color: white;
-align-self: flex-start;
-position: absolute;
-left: 250px;
-bottom: -2px;
- 
+
   padding: 0.375rem;
   border-radius: 12px;
   box-sizing: border-box;
@@ -359,10 +359,7 @@ bottom: -2px;
 }
 .activite5{
   background-color: white;
-  align-self: flex-start;
-  position: absolute;
-  left: 500px;
-  bottom: 290px;
+  
   
   padding: 0.375rem;
   border-radius: 12px;
@@ -378,8 +375,8 @@ bottom: -2px;
 }
 .activite6{
   background-color: white;
-  position: absolute;
-  right: 0px;
+ 
+  
   padding: 0.375rem;
   border-radius: 12px;
   box-sizing: border-box;
