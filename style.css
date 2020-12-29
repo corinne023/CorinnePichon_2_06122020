@@ -289,7 +289,7 @@ article h2 {
  flex-direction: row;
  align-content: flex-start;
 width: 90%;
-height: 600px;
+
 box-sizing: border-box;  
 }
 .activite h2{ 
@@ -397,7 +397,7 @@ footer{
   display: flex;
 
   width: 100%;
-  height: 190px;
+ 
   margin: auto;
   padding: 0 2rem;
   box-sizing: border-box;
@@ -416,15 +416,49 @@ footer{
 @media all and (max-width: 480px){
   header{
     width: 100%;
-    height: 10%;
     display: flex ;
     flex-wrap: wrap ;
     font-size: 12px;
-    
+  }
+  header img{
+    height: 20px;
+    margin-left: 10px;
+  }
+  .navlinksinscrire{
+    position: absolute;
+    height: 10px;
+    right: 30px;
+  }
+  .navlinkhebergement{
+    border-bottom: blue;
+  }
+  #input{
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+    height: 50px;
+  }
+  .searchformsubmitinput{
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0;
+    height: 50px;
+    font-family: "Raleway", "Sans serif";
+    font-size: 1rem;
+    cursor: pointer;
   }
   section{
-    width: 100%;
-    height: 20%;
+    width: 100%; 
     font-size: 12px;
     display: : ;
     justify-content: ;
@@ -432,9 +466,21 @@ footer{
   section h1 p{
     font-size: 12px;
   }
+  .searchFiltersfilter{
+    display: flex;
+    flex-direction: revert;
+    align-items: center;
+    margin-right: 14rem;
+    margin-top: 2px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-weight: bold;
+  }
   form{
     width: 100%;
-    height: 20%;
     display: inline-block;
     flex-direction:wrap;
     font-size: 20px;
@@ -456,16 +502,14 @@ footer{
   .hebergementetpopulaire{
     display: flex;
     flex-direction: column-reverse;
-    font-size: 20px;
     width: 336px;
-   
   }
   .populaire{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 200px;
-    height: 30%;
+  
     margin: 1px;
   }
   .hebergementpopulaire figure{
@@ -476,10 +520,11 @@ footer{
     font-size: 12px;
   }
   .hebergements{
+    background-color: white;
    display: flex;
     flex-direction: column; 
     width: 280px;
-    height: 1400px;
+    height: auto;
   }
   .hebergement1{
     display: flex;
@@ -492,8 +537,14 @@ footer{
   .hebergementfigure1{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 50px;
+    background-color: white;
+    padding: 6px 6px 6px 6px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    
+    width: 245px;
   }
   .hebergementfigure1 figcaption{
     font-size: 10px;
@@ -501,11 +552,14 @@ footer{
   .hebergementfigure2{
     display: flex;
     flex-direction:column;
-    position: absolute;
-    top: 2650px;
-    left: 50px; 
-    width: 100px;
-    height: 50px;
+    background-color: white;
+    padding: 6px 6px 6px 6px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+   
+    width: 245px;
   }
   .hebergementfigure2 figcaption{
     font-size: 12px;
@@ -519,45 +573,47 @@ footer{
     flex-direction: column;
   }
   .activite1{
-    width: 200px;
-    height: 100px;
+    width: 245px;
+    height: 175px;
   }
   .imageact1{
     width: 100%;
     height: 70%;
   }
   .activite2{
-    width: 200px;
-    height: 100px;
+    width: 245px;
+    height: 175px;
   }
   .activite3{
-    width: 200px;
-    height: 100px;
+    width: 245px;
+    height: 175px;
   }
   .activite4{
-    width: 200px;
-    height: 100px; 
+    width: 245px;
+    height: 175px; 
   }
   .activite5{
-    width: 200px;
-    height: 100px; 
+    width: 245px;
+    height: 175px; 
   }
   .activite6{
-    width: 200px;
-    height: 100px; 
+    width: 245px;
+    height: 175px; 
   }
-  .footer{
+  footer{
     width: 100%;
-    height: 575px;
+
     flex-direction: column;
   }
   .footerColumn{
     display: inline;
     flex-direction: column;
+    width: 100%;
+    padding: 0;
   }
 
 }
-@media screen all and (max-min: 700px et max-width:1220px)
+@media screen all and (min-width: 700px) and (max-width:1220px)
 
 
 
