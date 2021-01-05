@@ -592,7 +592,7 @@ footer{
   .activites figcaption{
     font-size: 15px
     }
-  }
+  
   .activites{
     display: flex;
     flex-direction: column;
@@ -637,7 +637,7 @@ footer{
     width: 100%;
     padding: 0;
   }
-
+}
 
 
 @media all and (max-width: 1220px) and (min-width: 730px)
