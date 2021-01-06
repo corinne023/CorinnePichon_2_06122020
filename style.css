@@ -433,6 +433,9 @@ footer{
     border-top: 0;
     border-bottom: 2px blue solid;
   }
+  .searchformsearchicon{
+    padding: 0.8rem 0.9rem;
+  }
   #input{
     border-right: none;
     border-left: none;
@@ -440,11 +443,11 @@ footer{
     border-bottom: #F2F2F2 1px solid;
     padding: 0 1.5rem;
     box-sizing: border-box;
-    width: 8rem;
+    width: 200px;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 0.9rem;
     font-family: "Raleway", "Sans serif";
-    height: 45px;
+    height: 35px;
   }
   .searchformsubmitinput{
     background-color: #0065FC;
@@ -453,7 +456,7 @@ footer{
     border: none;
     border-radius: 0 1rem 1rem 0;
     padding: 9px;
-    height: 40px;
+    height: 35px;
     font-family: "Raleway", "Sans serif";
     font-size: 1rem;
     cursor: pointer;
@@ -494,6 +497,12 @@ footer{
     display: flex;
     font-size: 10px;
   }
+  .searchfilterwrapicon{
+    height: 1rem;
+    width: 1.5rem;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+  }
   .contenairhebergement{
     width: 336px;
   }
@@ -509,9 +518,10 @@ footer{
     justify-content: center;
     width: 200px;
     margin: 1px;
+    border-radius:0;
   }
   .populaire h2{
-    font-size: 15px;
+    font-size: 14px;
   }
   .hebergementpopulaire figure{
     width: 240px;
@@ -538,7 +548,8 @@ footer{
   .hebergements h2{
     margin-bottom: 20px;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 14px;
+    margin-left: 6px;
   }
   .hebergement1{
     display: flex;
@@ -549,20 +560,19 @@ footer{
     padding: 0;
     margin: 0;
   }
-  .hebergements h2 p{
-    font-size: 12px
+  .hebergements p{
+    margin-right: 190px;
+    margin-left: 0.01px;
   }
   
   .hebergementfigure1{
     display: flex;
     flex-direction: column;
-
     background-color: white;
    padding:0;
    margin: 0;
     border-radius: 1.25rem;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
     width: 245px;
   }
   .hebergementfigure1 figcaption{
@@ -590,7 +600,7 @@ footer{
     margin-left: 40px
   }
   .activites figcaption{
-    font-size: 15px
+    font-size: 12px;
     }
   
   .activites{
@@ -629,7 +639,7 @@ footer{
   footer{
     width: 100%;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 14px;
   }
   .footerColumn{
     display: inline;
@@ -820,6 +830,251 @@ footer{
     width: 30%;
     font-size: 15px;
   }
+}
+
+@media all and (max-width: 729px) and (min-width: 481px){
+  header{
+    width: 100%;
+    display: flex ;
+    flex-wrap: wrap ;
+    font-size: 12px;
+  }
+  header img{
+    height: 20px;
+    margin-left: 10px;
+  }
+  header nav {
+    padding: 0;
+  }
+  .navlinksinscrire{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+  }
+  .navlinkhebergement{
+    border-top: 0;
+    border-bottom: 2px blue solid;
+  }
+  .searchformsearchicon{
+    padding: 0.8rem 0.9rem;
+  }
+  #input{
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 0.9rem;
+    font-family: "Raleway", "Sans serif";
+    height: 35px;
+  }
+  .searchformsubmitinput{
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 9px;
+    height: 35px;
+    font-family: "Raleway", "Sans serif";
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  section button span{
+    display: none;
+  }
+  section{
+    width: 100%; 
+    font-size: 12px;
+  }
+  section h1 p{
+    font-size: 12px;
+  }
+  .searchFiltersfilter{
+    display: flex;
+    align-items: center;
+    margin-right: 14rem;
+    margin-top: 2px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-weight: bold;
+  }
+  form{
+    width: 100%;
+    display: inline-block;
+    font-size: 10px;
+  }
+  
+  .searchFilters{
+    display: flex;
+    flex-direction: column;
+  }
+  .searchFiltersfilter{
+    display: flex;
+    font-size: 10px;
+  }
+  .searchfilterwrapicon{
+    height: 1rem;
+    width: 1.5rem;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+  }
+  .contenairhebergement{
+    width: 336px;
+  }
+  .hebergementetpopulaire{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 336px;
+  }
+  .populaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    margin: 1px;
+    border-radius:0;
+  }
+  .populaire h2{
+    font-size: 14px;
+  }
+  .hebergementpopulaire figure{
+    width: 240px;
+    height: 100px;
+    margin-top: 60px
+  }
+  .hebergementpopulaire figcaption{
+    font-size: 12px;
+  }
+  .hebergementpopulaire figcaption div {
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  .hebergements{
+    background-color: white;
+   display: flex;
+   align-items: center;
+    flex-direction: column; 
+    width: 280px;
+    height: auto;
+    padding: 0;
+    margin:0;
+  }
+  .hebergements h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 6px;
+  }
+  .hebergement1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hebergement1 figure{
+    padding: 0;
+    margin: 0;
+  }
+  .hebergements p{
+    margin-right: 190px;
+    margin-left: 0.01px;
+  }
+  
+  .hebergementfigure1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+   padding:0;
+   margin: 0;
+    border-radius: 1.25rem;
+    box-sizing: border-box; 
+    width: 245px;
+  }
+  .hebergementfigure1 figcaption{
+    font-size: 10px;
+  }
+  .hebergementfigure2{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+   margin: 0;
+   padding: 0;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    width: 245px;
+  }
+  .hebergementfigure2 figcaption{
+    font-size: 12px;
+  }
+  .activite{
+    width: 336px;
+    height: 30%;
+  }
+  .activite h2{
+    font-size: 15px;
+    margin-left: 40px
+  }
+  .activites figcaption{
+    font-size: 12px;
+    }
+  
+  .activites{
+    display: flex;
+    flex-direction: column;
+  }
+  .activite1{
+    width: 245px;
+    height: 175px;
+  }
+  .imageact1{
+    width: 100%;
+    height: 70%;
+  }
+  .activite2{
+    width: 245px;
+    height: 175px;
+  }
+  .activite3{
+    width: 245px;
+    height: 175px;
+    margin-top: 20px;
+  }
+  .activite4{
+    width: 245px;
+    height: 175px; 
+  }
+  .activite5{
+    width: 245px;
+    height: 175px; 
+  }
+  .activite6{
+    width: 245px;
+    height: 175px; 
+  }
+  footer{
+    width: 100%;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  .footerColumn{
+    display: inline;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+
+
+
+
+
 }
 
 
