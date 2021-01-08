@@ -86,11 +86,6 @@ main {
     font-weight: bold;
     font-family: "Raleway", "Sans serif";
   }
-#input :placeholder {
-    font-family: "Raleway", "Sans serif";
-    font-size: 1rem;
-    color: #00000069;
-  }
 .searchformsubmitinput {
     background-color: #0065FC;
     color: white;
@@ -445,7 +440,7 @@ footer{
     box-sizing: border-box;
     width: 200px;
     font-size: 1rem;
-    font-weight: 0.9rem;
+    font-weight: bold;
     font-family: "Raleway", "Sans serif";
     height: 35px;
   }
@@ -465,7 +460,7 @@ footer{
     display: none;
   }
   section{
-    width: 100%; 
+    width: 100%;
     font-size: 12px;
   }
   section h1 p{
@@ -867,7 +862,7 @@ footer{
     box-sizing: border-box;
     width: 200px;
     font-size: 1rem;
-    font-weight: 0.9rem;
+    font-weight: bold;
     font-family: "Raleway", "Sans serif";
     height: 35px;
   }
