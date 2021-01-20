@@ -419,6 +419,9 @@ footer{
   }
   header nav {
     padding: 0;
+    justify-content: center;
+    margin: 0;
+    margin-top: 25px;
   }
   
 
@@ -426,6 +429,10 @@ footer{
     position: absolute;
     top: 20px;
     right: 5px;
+  }
+  .navlinkactivite, .navlinkhebergement{
+    width: 100%;
+
   }
   .navlinkhebergement{
     border-top: 0;
@@ -472,7 +479,7 @@ footer{
   .searchFiltersfilter{
     display: flex;
     align-items: center;
-    margin-right: 14rem;
+    margin-right: 0;
     margin-top: 2px;
     border: 1px solid #d9d9d9;
     border-radius: 2rem;
@@ -486,10 +493,20 @@ footer{
     display: inline-block;
     font-size: 10px;
   }
-  
+  .searchFilters h2{
+    position: absolute;
+    top: -30px;
+  }
+  .btnfamilial{
+    margin-left: 20px;
+  }
   .searchFilters{
     display: flex;
-    flex-direction: column;
+    margin-top: 40px;
+    position: relative;
+    width: 50%;
+    margin-right:auto;
+    margin-left:auto;
   }
   .searchFiltersfilter{
     display: flex;
@@ -527,10 +544,13 @@ footer{
   .populaire h2{
     font-size: 14px;
   }
+  .hebergementpopulaire{
+    padding: 1rem;
+  }
   .hebergementpopulaire figure{
     width: 240px;
     height: 100px;
-    margin-top: 60px
+    margin-top: 10px;
   }
   .hebergementpopulaire figcaption{
     font-size: 12px;
@@ -1013,6 +1033,7 @@ footer{
   .hebergementfigure1{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: white;
    padding:0;
    margin: 0;
@@ -1026,6 +1047,7 @@ footer{
   .hebergementfigure2{
     display: flex;
     flex-direction:column;
+    align-items: center;
     background-color: white;
    margin: 0;
    padding: 0;
@@ -1039,6 +1061,9 @@ footer{
   .activite{
     width: 336px;
     height: 30%;
+    align-items: center;
+    margin: auto;
+    
   }
   .activite h2{
     font-size: 15px;
@@ -1051,6 +1076,8 @@ footer{
   .activites{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin:auto;
   }
   .activite1{
     width: 300px;
