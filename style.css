@@ -108,6 +108,9 @@ article h2 {
     display: flex;
     align-items: center;
   }
+  article p{
+    margin: 0 1rem;
+  }
 .searchFiltersfilter {
     display: flex;
     align-items: center;
@@ -147,6 +150,24 @@ article h2 {
     align-self: start;
     align-items: center;
     margin: 1rem 0 2rem 0;
+  }
+  .searchresultwrapicon {
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+  .searchwrapiconicon {
+    color: #0065FC;
+  }
+  .result p {
+    margin: 0;
   }
  p{
    display: flex;
@@ -423,7 +444,6 @@ footer{
     margin: 0;
     margin-top: 25px;
   }
-  
 
   .navlinksinscrire{
     position: absolute;
@@ -473,8 +493,12 @@ footer{
     width: 100%;
     font-size: 12px;
   }
-  section h1 p{
-    font-size: 12px;
+  section h1{
+    margin-top: 20px;
+    font-size: 28px;
+  }
+  section p{
+    font-size: 15px;
   }
   .searchFiltersfilter{
     display: flex;
@@ -487,6 +511,8 @@ footer{
     cursor: pointer;
     transition-duration: 0.1s;
     font-weight: bold;
+    height: 40px;
+    margin-right: 40px;
   }
   form{
     width: 100%;
@@ -498,26 +524,26 @@ footer{
     top: -30px;
   }
   .btnfamilial{
-    margin-left: 20px;
+    margin-left: px;
   }
   .searchFilters{
     display: flex;
     margin-top: 40px;
     position: relative;
-    width: 50%;
-    margin-right:auto;
-    margin-left:auto;
+    
   }
   .searchFiltersfilter{
     display: flex;
-    font-size: 10px;
+    font-size: 14px;
   }
   .searchfilterwrapicon{
-    height: 1rem;
-    width: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     min-height: 1.5rem;
     min-width: 1.5rem;
   }
+  
+  
   main{
     padding: 0;
   }
