@@ -491,6 +491,7 @@ footer{
   section{
     width: 100%;
     font-size: 12px;
+    padding: 0 1rem;
   }
   section h1{
     margin-top: 20px;
@@ -555,14 +556,14 @@ footer{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    width: 100%;
+    width: 418px;
   }
   .populaire{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: 0;
+    padding: 0 3rem;
     border-radius:0;
     height: auto;
   }
@@ -570,14 +571,15 @@ footer{
     font-size: 16px;
     justify-content: space-evenly;
     margin-top: 20px;
-    margin-right: 250px;
+    margin-right: 200px;
   }
   .hebergementpopulaire{
     padding: 1rem;
+    margin-left: 30px;
   }
   .hebergementpopulaire figure{
-    width: 380px;
-    height: 140px;
+    width: 360px;
+    height: 120px;
     margin-top: 10px;
   }
   .hebergementpopulaire figcaption{
@@ -608,7 +610,7 @@ footer{
     margin-top: 20px;
     font-size: 16px;
     margin-left: 0.02px;
-    margin-right: 220px;
+    margin-right: 200px;
   }
   .hebergement1{
     display: flex;
@@ -619,8 +621,8 @@ footer{
     padding: 0;
     margin: 0;
     box-shadow: 0 0 20px #0000002e;
-    width: 405px;
-    height:220px;
+    width: 360px;
+    height:180px;
     margin-bottom: 10px;
   }
   .hebergements p{
@@ -671,41 +673,41 @@ footer{
   .activites{
     display: flex;
     flex-direction: column;
-    margin-left:-30px;
+    margin-left:-15px;
   }
   .activite1{
-    width: 400px;
-    height: 220px;
+    width: 360px;
+    height: 180px;
   }
   .imageact1{
     width: 100%;
     height: 70%;
   }
   .activite2{
-    width: 400px;
-    height: 220px;
+    width: 360px;
+    height: 180px;
   }
   .activite3{
-    width: 400px;
-    height: 220px;
+    width: 360px;
+    height: 180px;
     margin-top: 20px;
   }
   .activite4{
-    width: 400px;
-    height: 220px; 
+    width: 360px;
+    height: 180px; 
   }
   .activite5{
-    width: 400px;
-    height: 220px; 
+    width: 360px;
+    height: 180px; 
   }
   .activite6{
-    width: 400px;
-    height: 220px; 
+    width: 360px;
+    height: 180px; 
   }
   footer{
-    width: 100%;
     flex-direction: column;
     font-size: 14px;
+    padding: 0 2rem;
   }
   .footerColumn{
     display: inline;
