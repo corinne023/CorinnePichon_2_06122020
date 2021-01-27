@@ -8,9 +8,9 @@ body {
 header {
     align-items: center; 
     justify-content: space-between;
-    width: 1440px;
     margin-right: 20px;
     margin:auto;
+    max-width: 1440px;
   }
 header img {
     padding: 0 2rem;
@@ -96,6 +96,9 @@ main {
     font-family: "Raleway", "Sans serif";
     font-size: 1rem;
     cursor: pointer;
+  }
+  .searchFormSubmitinputIcon{
+    display: none;
   }
 .searchFilters {
     display: flex;
@@ -489,7 +492,7 @@ footer{
     display: none;
   }
   section{
-    width: 100%;
+    width: 87%;
     font-size: 12px;
     padding: 0 1rem;
   }
@@ -556,17 +559,17 @@ footer{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    width: 418px;
+    width: 100%;
   }
   .populaire{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: 0 3rem;
+    padding: 0;
+    margin: 0;
     border-radius:0;
     height: auto;
-    margin-right: 30px;
   }
   .populaire h2{
     font-size: 16px;
@@ -576,10 +579,10 @@ footer{
   }
   .hebergementpopulaire{
     padding: 1rem;
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .hebergementpopulaire figure{
-    width: 360px;
+    width: 300px;
     height: 120px;
     margin-top: 10px;
   }
@@ -622,7 +625,7 @@ footer{
     padding: 0;
     margin: 0;
     box-shadow: 0 0 20px #0000002e;
-    width: 360px;
+    width: 300px;
     height:180px;
     margin-bottom: 10px;
   }
@@ -674,38 +677,46 @@ footer{
   .activites{
     display: flex;
     flex-direction: column;
-    margin-left:-15px;
+    align-items: center;
+   width: 100%;
   }
   .activite1{
-    width: 360px;
+    width: 300px;
     height: 180px;
+    margin:0;
   }
   .imageact1{
     width: 100%;
     height: 70%;
   }
   .activite2{
-    width: 360px;
+    width: 300px;
     height: 180px;
+    margin:0;
   }
   .activite3{
-    width: 360px;
+    width: 300px;
     height: 180px;
     margin-top: 20px;
+    margin:0;
   }
   .activite4{
-    width: 360px;
+    width: 300px;
     height: 180px; 
+    margin:0;
   }
   .activite5{
-    width: 360px;
-    height: 180px; 
+    width: 300px;
+    height: 180px;
+    margin:0; 
   }
   .activite6{
-    width: 360px;
+    width: 300px;
     height: 180px; 
+    margin: 0;
   }
   footer{
+    width: 100%;
     flex-direction: column;
     font-size: 14px;
     padding: 0 2rem;
@@ -777,6 +788,9 @@ footer{
     align-items: center;
     justify-content: center;
     margin: -2px;
+  }
+  .searchFormSubmitinputIcon{
+    display: inline-block;
   }
   article h2 {
       margin: 5px;
@@ -1016,19 +1030,19 @@ footer{
     min-width: 1.5rem;
   }
   .contenairhebergement{
-    width: 336px;
+    width: 100%;
   }
   .hebergementetpopulaire{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    width: 400px;
+    width: 100%;
   }
   .populaire{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 300px;
+    width: 100%;
     margin: 1px;
     border-radius:0;
   }
@@ -1052,7 +1066,7 @@ footer{
    display: flex;
    align-items: center;
     flex-direction: column; 
-    width: 280px;
+    width: 100%;
     height: auto;
     padding: 0;
     margin:0;
