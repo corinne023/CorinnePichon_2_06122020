@@ -488,6 +488,9 @@ footer{
     font-size: 1rem;
     cursor: pointer;
   }
+  .searchFormSubmitinputIcon {
+    display: block;
+  }
   section button span{
     display: none;
   }
@@ -575,22 +578,23 @@ footer{
     font-size: 16px;
     justify-content: space-evenly;
     margin-top: 20px;
-    margin-right: 150px;
+    margin-right: 140px;
   }
   .hebergementpopulaire{
     padding: 1rem;
     margin-left: 0px;
   }
   .hebergementpopulaire figure{
-    width: 300px;
-    height: 120px;
+    width: 320px;
+    height: 150px;
     margin-top: 10px;
+    max-width: 100%;
   }
   .hebergementpopulaire figcaption{
     font-size: 12px;
   }
   .hebergementpopulaire figcaption h3 {
-    margin: 0.25rem 0.2rem 0 0.4rem;
+    margin: 0.80rem 0.2rem 0 0.4rem;
   }
   .hebergementpopulaire figcaption p{
     margin: 0.25rem 0.3rem 0 0.4rem;
@@ -614,7 +618,7 @@ footer{
     margin-top: 20px;
     font-size: 16px;
     margin-left: 0.02px;
-    margin-right: 160px;
+    margin-right: 120px;
   }
   .hebergement1{
     display: flex;
@@ -625,12 +629,12 @@ footer{
     padding: 0;
     margin: 0;
     box-shadow: 0 0 20px #0000002e;
-    width: 300px;
-    height:180px;
+    width: 320px;
+    height: auto;
     margin-bottom: 10px;
   }
   .hebergements p{
-    margin-right: 280px;
+    margin-right: 230px;
     margin-left: 0.01px;
   }
   
@@ -668,7 +672,7 @@ footer{
   }
   .activite h2{
     font-size: 16px;
-    margin-left: 25px;
+    margin-left: 55px;
   }
   .activites figcaption{
     font-size: 12px;
@@ -681,39 +685,45 @@ footer{
    width: 100%;
   }
   .activite1{
-    width: 300px;
+    width: 320px;
     height: 180px;
     margin:0;
+    margin-bottom: 15px;
   }
   .imageact1{
     width: 100%;
     height: 70%;
   }
   .activite2{
-    width: 300px;
+    width: 320px;
     height: 180px;
     margin:0;
+    margin-bottom: 15px;
   }
   .activite3{
-    width: 300px;
+    width: 320px;
     height: 180px;
     margin-top: 20px;
     margin:0;
+    margin-bottom: 15px;
   }
   .activite4{
-    width: 300px;
+    width: 320px;
     height: 180px; 
     margin:0;
+    margin-bottom: 15px;
   }
   .activite5{
-    width: 300px;
+    width: 320px;
     height: 180px;
     margin:0; 
+    margin-bottom: 15px;
   }
   .activite6{
-    width: 300px;
+    width: 320px;
     height: 180px; 
     margin: 0;
+    margin-bottom: 15px;
   }
   footer{
     width: 100%;
@@ -941,18 +951,21 @@ footer{
     width: 100%;
     display: flex ;
     flex-wrap: wrap ;
-    font-size: 12px;
   }
   header img{
-    height: 20px;
     margin-left: 10px;
+    margin-bottom: 10px;
   }
   header nav {
     padding: 0;
+    justify-content: space-between;
+  }
+  .navlinkactivite{
+    margin-left: 300px;
   }
   .navlinksinscrire{
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 5px;
   }
   .navlinkhebergement{
@@ -973,7 +986,7 @@ footer{
     font-size: 1rem;
     font-weight: bold;
     font-family: "Raleway", "Sans serif";
-    height: 35px;
+    height: 42px;
   }
   .searchformsubmitinput{
     background-color: #0065FC;
@@ -981,8 +994,8 @@ footer{
     font-weight: bold;
     border: none;
     border-radius: 0 1rem 1rem 0;
-    padding: 9px;
-    height: 35px;
+    padding: 12px;
+    height: 42px;
     font-family: "Raleway", "Sans serif";
     font-size: 1rem;
     cursor: pointer;
@@ -990,17 +1003,39 @@ footer{
   section button span{
     display: none;
   }
+  .searchFormSubmitinputIcon{
+    display: block;
+  }
   section{
     width: 100%; 
-    font-size: 12px;
+    padding: 0 2rem;
   }
-  section h1 p{
-    font-size: 12px;
+  section h1{
+    margin-top: 40px;
+  }
+  
+  
+  form{
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .searchFilters{
+    display: flex;
+    margin-top: 60px;
+  }
+  .searchFilters h2{
+    position: absolute;
+    top: 260px;
+    margin-top: 20px;
+  }
+  .searchFiltersfilter{
+    display: flex;
   }
   .searchFiltersfilter{
     display: flex;
     align-items: center;
-    margin-right: 14rem;
+    margin-right: 10rem;
     margin-top: 2px;
     border: 1px solid #d9d9d9;
     border-radius: 2rem;
@@ -1009,28 +1044,19 @@ footer{
     transition-duration: 0.1s;
     font-weight: bold;
   }
-  form{
-    width: 100%;
-    display: inline-block;
-    font-size: 10px;
-  }
-  
-  .searchFilters{
-    display: flex;
-    flex-direction: column;
-  }
-  .searchFiltersfilter{
-    display: flex;
-    font-size: 10px;
-  }
   .searchfilterwrapicon{
-    height: 1rem;
-    width: 1.5rem;
+    height: 3rem;
+    width: 3rem;
     min-height: 1.5rem;
     min-width: 1.5rem;
   }
+  main{
+    padding: 0;
+  }
   .contenairhebergement{
     width: 100%;
+    padding: 0;
+    margin:auto;
   }
   .hebergementetpopulaire{
     display: flex;
@@ -1043,19 +1069,28 @@ footer{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin: 1px;
-    border-radius:0;
+    margin: 0;
+    padding: 0;
+    height:auto;
+    border-radius: 0;
   }
   .populaire h2{
-    font-size: 14px;
+    justify-content: space-evently;
+    margin-top: 40px;
+    margin-right: 350px;
+  }
+  .hebergementpopulaire{
+    padding: 1rem;
+    margin-left: 0;
   }
   .hebergementpopulaire figure{
-    width: 300px;
-    height: 110px;
-    margin-top: 60px
+    width: 650px;
+    height: 300px;
+    margin-top: 60px;
+    max-width: 100%;
   }
   .hebergementpopulaire figcaption{
-    font-size: 12px;
+    
   }
   .hebergementpopulaire figcaption div {
     margin-top: 25px;
@@ -1072,22 +1107,26 @@ footer{
     margin:0;
   }
   .hebergements h2{
-    margin-bottom: 20px;
     margin-top: 20px;
-    font-size: 14px;
-    margin-left: 6px;
+    margin-right:375px;
+    margin-left: 0.02px;
   }
   .hebergement1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   .hebergement1 figure{
     padding: 0;
     margin: 0;
+    box-shadow: 0 0 20px #0000002e;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
   }
   .hebergements p{
-    margin-right: 190px;
+    margin-right: 580px;
     margin-left: 0.01px;
   }
   
@@ -1098,9 +1137,9 @@ footer{
     background-color: white;
    padding:0;
    margin: 0;
+   width: inherit;
     border-radius: 1.25rem;
-    box-sizing: border-box; 
-    width: 300px;
+    box-sizing: border-box;
   }
   .hebergementfigure1 figcaption{
     font-size: 10px;
@@ -1112,23 +1151,21 @@ footer{
     background-color: white;
    margin: 0;
    padding: 0;
+   width: 100%;
     border-radius: 1.25rem;
     box-sizing: border-box;
-    width: 300px;
   }
   .hebergementfigure2 figcaption{
     font-size: 12px;
   }
   .activite{
-    width: 336px;
+    width: 100%;
     height: 30%;
     align-items: center;
-    margin: auto;
-    
+    margin: auto; 
   }
   .activite h2{
-    font-size: 15px;
-    margin-left: 40px
+    margin-right: 410px;
   }
   .activites figcaption{
     font-size: 12px;
@@ -1139,40 +1176,47 @@ footer{
     flex-direction: column;
     align-items: center;
     margin:auto;
+    width: 100%;
   }
   .activite1{
-    width: 300px;
-    height: 175px;
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
   }
   .imageact1{
     width: 100%;
     height: 70%;
   }
   .activite2{
-    width: 300px;
-    height: 175px;
+    width: 100%;
+    height: 300px;
+    margin: 0;
   }
   .activite3{
-    width: 300px;
-    height: 175px;
+    width: 100%;
+    height: 300px;
     margin-top: 20px;
+    margin-left:0;
   }
   .activite4{
-    width: 300px;
-    height: 175px; 
+    width: 100%;
+    height: 300px; 
+    max-width: 100%;
+  }
+  .activitelagardelongchamps{
+    width: 100%;
   }
   .activite5{
-    width: 300px;
-    height: 175px; 
+    width: 650px;
+    height: 300px; 
   }
   .activite6{
-    width: 300px;
-    height: 175px; 
+    width: 650px;
+    height: 300px; 
   }
   footer{
     width: 100%;
     flex-direction: column;
-    font-size: 14px;
   }
   .footerColumn{
     display: inline;
