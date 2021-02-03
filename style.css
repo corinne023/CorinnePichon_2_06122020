@@ -959,9 +959,10 @@ footer{
   header nav {
     padding: 0;
     justify-content: space-between;
+    margin-right: 0;
   }
   .navlinkactivite{
-    margin-left: 300px;
+    margin-left: 0;
   }
   .navlinksinscrire{
     position: absolute;
@@ -1008,7 +1009,7 @@ footer{
   }
   section{
     width: 100%; 
-    padding: 0 2rem;
+    padding: 0;
   }
   section h1{
     margin-top: 40px;
@@ -1023,6 +1024,7 @@ footer{
   .searchFilters{
     display: flex;
     margin-top: 60px;
+    margin-left: 20px;
   }
   .searchFilters h2{
     position: absolute;
@@ -1218,20 +1220,21 @@ footer{
   }
   .activitelagardelongchamp{
     max-width: 100%;
-    margin-right: 80px;
   }
   .activite5{
     width: 690px;
     height: 300px;
     max-width: 100%;
+    margin: 0;
   }
   .image5{
     height: 80%;
     }
-  }
+  
   .activite6{
     width: 690px;
     height: 300px; 
+    margin:0;
     max-width: 100%;
     margin-bottom: 20px;
   }
