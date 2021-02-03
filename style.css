@@ -1075,9 +1075,11 @@ footer{
     border-radius: 0;
   }
   .populaire h2{
-    justify-content: space-evently;
     margin-top: 40px;
-    margin-right: 350px;
+    margin-left: 40px;
+  }
+  .icon{
+    margin-right: 80px;
   }
   .hebergementpopulaire{
     padding: 1rem;
@@ -1089,11 +1091,12 @@ footer{
     margin-top: 60px;
     max-width: 100%;
   }
-  .hebergementpopulaire figcaption{
-    
+  .hebergementpopulaire figcaption h3{
+    margin-top: 50px;
+    margin-left: 10px;
   }
   .hebergementpopulaire figcaption div {
-    margin-top: 25px;
+    margin-top: 120px;
     margin-left: 10px;
   }
   .hebergements{
@@ -1121,9 +1124,12 @@ footer{
     padding: 0;
     margin: 0;
     box-shadow: 0 0 20px #0000002e;
-    width: 100%;
+    width: 95%;
     height: 300px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+  }
+  .imagehebergement{
+    height: 70%;
   }
   .hebergements p{
     margin-right: 580px;
@@ -1141,9 +1147,6 @@ footer{
     border-radius: 1.25rem;
     box-sizing: border-box;
   }
-  .hebergementfigure1 figcaption{
-    font-size: 10px;
-  }
   .hebergementfigure2{
     display: flex;
     flex-direction:column;
@@ -1155,9 +1158,7 @@ footer{
     border-radius: 1.25rem;
     box-sizing: border-box;
   }
-  .hebergementfigure2 figcaption{
-    font-size: 12px;
-  }
+  
   .activite{
     width: 100%;
     height: 30%;
@@ -1165,54 +1166,77 @@ footer{
     margin: auto; 
   }
   .activite h2{
-    margin-right: 410px;
+    margin-right: 450px;
   }
-  .activites figcaption{
-    font-size: 12px;
-    }
   
   .activites{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin:auto;
-    width: 100%;
+    width: 98%;
   }
   .activite1{
-    width: 100%;
+    width: 690px;
     height: 300px;
     max-width: 100%;
+    margin:0;
+    margin-bottom: 20px;
   }
   .imageact1{
     width: 100%;
-    height: 70%;
+    height: 80%;
   }
-  .activite2{
-    width: 100%;
-    height: 300px;
-    margin: 0;
-  }
-  .activite3{
-    width: 100%;
-    height: 300px;
-    margin-top: 20px;
-    margin-left:0;
-  }
-  .activite4{
-    width: 100%;
-    height: 300px; 
+  .activitepomèguesfrioul{
     max-width: 100%;
   }
-  .activitelagardelongchamps{
-    width: 100%;
+  .activite2{
+    width: 690px;
+    height: 300px;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .imageact2{
+    height: 80%;
+  }
+  .activite3{
+    width: 690px;
+    height: 300px;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .image3{
+    height: 80%;
+  }
+  .activite4{
+    width: 690px;
+    height: 300px; 
+    max-width: 100%;
+    margin: 0;
+  }
+  .activitelagardelongchamp{
+    max-width: 100%;
+    margin-right: 80px;
   }
   .activite5{
-    width: 650px;
-    height: 300px; 
+    width: 690px;
+    height: 300px;
+    max-width: 100%;
+  }
+  .image5{
+    height: 80%;
+    }
   }
   .activite6{
-    width: 650px;
+    width: 690px;
     height: 300px; 
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .image6{
+    height: 80%;
   }
   footer{
     width: 100%;
