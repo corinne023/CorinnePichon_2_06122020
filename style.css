@@ -436,7 +436,7 @@ width: 88%;
 footer{
   background-color: #F2F2F2;
   display: flex;
-  width: 1440px;
+  width: 100%;
   margin: auto;
   padding: 0 1rem;
   box-sizing: border-box;
